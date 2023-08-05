@@ -162,6 +162,49 @@
         .customers-client-link{
             width: 168px;
         }
+
+        .footer-text{
+        max-width: 264px;
+        }
+
+        .footer-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 582px;
+            
+                gap: 72px 24px;
+        }
+
+        .footer-container-text{
+            margin-right: 24px;
+                align-items: start;
+                margin-bottom: 0;
+        }
+
+        .footer-socials{
+            align-items: start;
+                margin-bottom: 0;
+        }
+
+        .footer-form {
+            flex-direction: row;
+            
+        }
+
+        .footer-input{
+            width: 264px;
+        }
+
+        .footer-social-form{
+            align-items: start;
+        }
+
+        .footer-label{
+            margin-right: 24px;
+        }
+
+
 }
 
 @media screen and (min-width: 1158px) {
@@ -312,5 +355,40 @@
     .customers-client-link {
         height: 100%;
         width: 100%;
+    }
+
+    .footer{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .footer-text{
+        max-width: 264px;
+    }
+
+    .footer-container{
+        display: flex;
+    }
+
+    .footer-container-text {
+        margin-right: 120px;
+    }
+
+    .footer-social-form {
+        display: block;
+        margin-left: 80px;
+    }
+
+    .footer-form{
+        justify-content: flex-end;
+        gap: 24px;
+    }
+
+    .footer-input{
+        width: 264px;
+    }
+
+    .footer-btn{
+        min-width: 165px;
     }
 }
